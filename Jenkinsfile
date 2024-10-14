@@ -31,6 +31,7 @@ pipeline {
                         sleep 1
                     }
                 }
+
                 sh 'mvn test'
             }    
         }
