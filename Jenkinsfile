@@ -16,7 +16,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Get some code from a GitHub repo
-                git branch: 'main', url: 'https://github.com/Keji-dev/jenkins-hello-world.git'
+                // git branch: 'main', url: 'https://github.com/Keji-dev/jenkins-hello-world.git'
 
                 // Run Maven Package CMD
                 sh 'mvn clean package -DskipTests=true'
